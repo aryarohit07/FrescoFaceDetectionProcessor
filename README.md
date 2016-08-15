@@ -1,6 +1,8 @@
 
 # Fresco face detection processor
 
+[ ![Download](https://api.bintray.com/packages/aryarohit07/android/fresco-facedetection-processor/images/download.svg) ](https://bintray.com/aryarohit07/android/fresco-facedetection-processor/_latestVersion)
+
 ### An Android image processor library providing cropping above Face Detection (Face Centering) for [Fresco](https://github.com/facebook/fresco)
 
 Are you using **Picasso**? [PicassoFaceDetectionTransformation](https://github.com/aryarohit07/PicassoFaceDetectionTransformation).
