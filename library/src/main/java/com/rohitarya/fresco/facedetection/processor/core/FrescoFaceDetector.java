@@ -36,7 +36,10 @@ public class FrescoFaceDetector {
     }
 
     public static void initialize(Context context) {
-        mContext = context;
+        if (context == null) {
+            throw new IllegalArgumentException("Context must not be null.");
+        }
+        mContext = context.getApplicationContext(); // To make it independent of activity lifecycle
     }
 
     private static void initDetector() {
