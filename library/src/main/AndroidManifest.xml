@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rohitarya.fresco.facedetection.processor">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+
+    </application>
+
+</manifest>
